@@ -1,0 +1,144 @@
+header {
+    height: 30vh;
+    max-width: 100%;
+    padding-left: 8px;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: brown;
+}
+
+header.principal {
+    background-image: url(./imagens/clinica1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    background-attachment:local;
+}
+header.sobre {
+    background-image: url(./imagens/clinica2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+header.horario {
+    background-image: url(./imagens/clinica3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+header.contato {
+    background-image: url(./imagens/clinica5.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 600px;
+}
+
+.main-sobre{
+    display:flex;
+    background-color: aquamarine;
+    height: 60vh;
+    justify-content: space-between;
+    color: aquamarine;
+}
+
+.servicos{
+    background-image: url(./imagens/atendimentodeponta.jfif);
+    height:100%;
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.servicos img{
+    height: 30px;
+    width: 30px;
+}
+.atendimento{
+    background-image: url(./imagens/atendimentoPersonalizado.jfif);
+    height: 100%;
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.atendimento img{
+    height: 30px;
+    width: 30px;
+}
+.atencao{
+    background-image: url(./imagens/atencaoaoacompanhante.jfif);
+    height:100%;
+    display: flex;
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.atencao img{
+    height: 30px;
+    width: 30px;
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding-bottom: 500px;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: aquamarine;
+    bottom: 0;
+}
+.hor{
+    background-color: aquamarine;
+    height: 70vh;
+    text-align: center;
+    align-items: center ;
+}
